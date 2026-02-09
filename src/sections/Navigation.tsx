@@ -76,7 +76,7 @@ export function Navigation({ onOpenModal }: NavigationProps) {
             {/* CTA Button */}
             <div className="hidden md:block">
               <Button
-                onClick={onOpenModal}
+                onClick={() => onOpenModal()}
                 className="bg-gradient-green hover:opacity-90 text-white rounded-full px-6 py-2 font-medium transition-all hover:scale-105 hover:shadow-lg hover:shadow-[#00d085]/25"
               >
                 Agendar demonstração
@@ -119,7 +119,7 @@ export function Navigation({ onOpenModal }: NavigationProps) {
                 </button>
               ))}
               <Button
-                onClick={onOpenModal}
+                onClick={() => onOpenModal()}
                 className="w-full bg-gradient-green hover:opacity-90 text-white rounded-full py-3 font-medium mt-4"
               >
                 Agendar demonstração

@@ -55,7 +55,7 @@ export function CTAFinal({ onOpenModal }: CTAFinalProps) {
           className="mb-8"
         >
           <Button
-            onClick={onOpenModal}
+            onClick={() => onOpenModal()}
             size="lg"
             className="bg-gradient-green hover:opacity-90 text-white rounded-full px-10 py-7 text-lg font-medium transition-all hover:scale-105 group animate-pulse-glow"
           >

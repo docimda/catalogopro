@@ -51,7 +51,7 @@ export function CTAMiddle({ onOpenModal }: CTAMiddleProps) {
               transition={{ duration: 0.6, delay: 0.3, ease: [0.165, 0.84, 0.44, 1] }}
             >
               <Button
-                onClick={onOpenModal}
+                onClick={() => onOpenModal()}
                 size="lg"
                 className="bg-white text-[#00d085] hover:bg-white/90 rounded-full px-8 py-6 text-lg font-medium transition-all hover:scale-105 group shadow-xl shadow-black/10"
               >

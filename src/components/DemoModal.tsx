@@ -168,7 +168,7 @@ export function DemoModal({ isOpen, onClose, planName }: DemoModalProps) {
                         }
                         required
                       >
-                        <SelectTrigger className="rounded-xl border-[#e9e9e9] focus:border-[#00d085] focus:ring-[#00d085]/20">
+                        <SelectTrigger className="w-full rounded-xl border-[#e9e9e9] focus:border-[#00d085] focus:ring-[#00d085]/20">
                           <SelectValue placeholder="Selecione o segmento" />
                         </SelectTrigger>
                         <SelectContent className="rounded-xl">
